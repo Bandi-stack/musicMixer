@@ -1,0 +1,39 @@
+body{
+    background-color: #687EFF;
+}
+h1{
+    font-size: 75px;
+}
+.gif1{
+    width: 25px;
+}
+.gif2{
+    width: 655px;
+    height: 70vh;
+}
+.mixer {
+    border: 5px solid #80B3FF;
+    background-color: #B6FFFA;  
+    
+  }
+#playButton{
+    background-color: aqua;
+    border-radius: 25px;
+}
+
+.rot{
+    width: 500px;
+    height: 500px;
+    animation: rotation infinite 3s linear;
+    border-radius: 375px;
+}
+
+@keyframes rotation {
+    from{
+        transform: rotate(0deg);
+    }
+
+    to{
+        transform: rotate(360deg);
+    }
+}
